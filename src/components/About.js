@@ -21,7 +21,6 @@ const About = () => {
       <Skills />
       <KnowledgeInterests />
       <EducationExperience />
-      <Testimonials />
     </SectionContainer>
   );
 };

@@ -2,17 +2,17 @@ import SectionContainer from "./SectionContainer";
 const socialIcon = [
   {
     id: 1,
-    iconName: "icon-facebook-squared",
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: 2,
     iconName: "icon-twitter-squared",
     link: "https://twitter.com/",
   },
   {
+    id: 2,
+    iconName: "icon-instagram-3",
+    link: "https://www.facebook.com/",
+  },
+  {
     id: 3,
-    iconName: "icon-behance-squared",
+    iconName: "icon-youtube-squared",
     link: "https://www.behance.net/",
   },
   {

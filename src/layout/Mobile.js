@@ -11,10 +11,10 @@ const Mobile = () => {
           <div className="logo" data-type="image">
             {" "}
             {/* You can use image or text as logo. data-type values are "image" and "text" */}
-            <a href="#">
+            <a href="/">
               <img
                 className="max-w-[100px] max-h-[40px]"
-                src="assets/img/logo/dark.png"
+                src="assets/img/logo/logo2.png"
                 alt="image"
               />
               <h3 className="font-black font-poppins text-[25px] tracking-[4px]">
