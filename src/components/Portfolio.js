@@ -7,15 +7,15 @@ import SectionTitle from "./SectionTitle";
 const detailData = [
   {
     id: 1,
-    thumbnail: "assets/img/portfolio/7.jpg",
+    thumbnail: "assets/img/portfolio/farm.jpg",
     title: "On The Farm",
     text: [
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
-      "Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.",
+      "This captivating endeavor takes you to the sprawling fields and rustic landscapes of a farm, where every frame is a celebration of nature's bounty and the hard work that goes into cultivating the land.",
+      "The color grading in is an ode to the rich and diverse colors found in the countryside. From the golden amber of ripe wheat fields to the lush greenery of flourishing crops, each frame is meticulously treated to showcase the vibrancy and authenticity of farm life.",
     ],
     client: "Chesapeake Farm",
-    date: "October 22, 2022",
-    category: "Detail",
+    date: "March 14, 2023",
+    category: "Colour Grading",
     share: [
       {
         id: 1,
@@ -38,7 +38,7 @@ const detailData = [
         link: "https://www.linkedin.com/",
       },
     ],
-    bigImage: "assets/img/portfolio/1.jpg",
+    bigImage: "assets/img/portfolio/farm2.jpg",
     images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
   },
 ];
@@ -128,12 +128,12 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Teresa Butler"
-                    data-category="Vimeo"
+                    data-title="Ooredoo"
+                    data-category="Advert"
                   >
                     <a
                       className="popup-vimeo"
-                      href="https://vimeo.com/337293658"
+                      href="https://www.youtube.com/watch?v=zTFCeq2H3UY"
                     >
                       <img
                         className="opacity-0 min-w-full"
@@ -142,7 +142,31 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/5.jpg"
+                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+                            <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Baladna Milk"
+                    data-category="Advert"
+                  >
+                    <a
+                      className="popup-vimeo"
+                      href="https://www.youtube.com/watch?v=TmwxKBkYk0I"
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/baladna.jpg"
                       />
                     </a>
                   </div>
@@ -152,12 +176,12 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Ashley Flores"
-                    data-category="Youtube"
+                    data-title="Invest Qatar"
+                    data-category="Brand Film"
                   >
                     <a
                       className="popup-youtube"
-                      href="https://www.youtube.com/watch?v=7e90gBu4pas"
+                      href="https://www.youtube.com/watch?v=AOsRcSRl_Ic"
                     >
                       <img
                         className="opacity-0 min-w-full"
@@ -166,7 +190,31 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/6.jpg"
+                        data-img-url="assets/img/portfolio/invest.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+               <li className="youtube mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="TASMU"
+                    data-category="Brand Film"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/watch?v=yFdeOxwD0mI"
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/tasmu.jpg"
                       />
                     </a>
                   </div>
@@ -176,8 +224,8 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Selena Gomez"
-                    data-category="Detail"
+                    data-title="On The Farm"
+                    data-category="Colour Grading"
                   >
                     <a
                       className="popup_info"
@@ -194,7 +242,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/7.jpg"
+                        data-img-url="assets/img/portfolio/farm.jpg"
                       />
                     </a>
                   </div>
