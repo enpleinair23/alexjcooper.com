@@ -1,12 +1,12 @@
 const partnersDark = [
-  { id: 1, image: "assets/img/partners/dark/1.png" },
-  { id: 2, image: "assets/img/partners/dark/2.png" },
-  { id: 3, image: "assets/img/partners/dark/3.png" },
-  { id: 4, image: "assets/img/partners/dark/4.png" },
-  { id: 5, image: "assets/img/partners/dark/5.png" },
-  { id: 6, image: "assets/img/partners/dark/6.png" },
-  { id: 7, image: "assets/img/partners/dark/7.png" },
-  { id: 8, image: "assets/img/partners/dark/8.png" },
+  { id: 1, image: "assets/img/partners/light/01.svg" },
+  { id: 2, image: "assets/img/partners/light/02.svg" },
+  { id: 3, image: "assets/img/partners/light/03.svg" },
+  { id: 4, image: "assets/img/partners/light/04.svg" },
+  { id: 5, image: "assets/img/partners/light/05.svg" },
+  { id: 6, image: "assets/img/partners/light/1.png" },
+  { id: 7, image: "assets/img/partners/light/2.png" },
+  { id: 8, image: "assets/img/partners/light/5.png" },
 ];
 
 const Partners = () => {

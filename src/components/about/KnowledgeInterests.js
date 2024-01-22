@@ -1,16 +1,15 @@
 const knowledge = [
-  { id: 1, text: "Bootstrap, Angular" },
-  { id: 2, text: "React, Vue, Laravel" },
-  { id: 3, text: "Stylus, Sass, Less" },
-  { id: 4, text: "Gulp, Webpack, Grunt" },
-  { id: 5, text: "Tweenmax, GSAP" },
+  { id: 1, text: "Adobe Premiere Pro, After Effects" },
+  { id: 2, text: "Final Cut Pro X" },
+  { id: 3, text: "Davinci Resolve" },
+  { id: 4, text: "Avid Media Composer" },
 ];
 const interests = [
-  { id: 1, text: "Make UI/UX Design" },
-  { id: 2, text: "Create Mobile App" },
-  { id: 3, text: "Site Optimization" },
-  { id: 4, text: "Custom Website" },
-  { id: 5, text: "Learn Ecommerce" },
+  { id: 1, text: "Storytelling" },
+  { id: 2, text: "Visual Arts" },
+  { id: 3, text: "Cinematography and Film Production" },
+  { id: 4, text: "Music and Sound Design" },
+  { id: 5, text: "Digital Media and Social Media" },
 ];
 
 const KnowledgeInterests = () => {

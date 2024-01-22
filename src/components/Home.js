@@ -3,22 +3,22 @@ const socialIcon = [
   {
     id: 1,
     iconName: "icon-twitter-squared",
-    link: "https://twitter.com/",
+    link: "https://twitter.com/alexjcooper23",
   },
   {
     id: 2,
     iconName: "icon-instagram-3",
-    link: "https://www.facebook.com/",
+    link: "https://www.instagram.com/alexjcooper23/",
   },
   {
     id: 3,
     iconName: "icon-youtube-squared",
-    link: "https://www.behance.net/",
+    link: "https://www.youtube.com/watch?v=QYxKRI9wZ20",
   },
   {
     id: 4,
     iconName: "icon-linkedin-squared",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/alexander-cooper23/",
   },
 ];
 const Home = () => {

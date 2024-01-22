@@ -1,41 +1,41 @@
 const experiencesData = [
   {
     id: 1,
-    date: "2018 - Now",
-    designation: "Exclusive Author",
-    company: "Envato Market",
+    date: "2023 - Now",
+    designation: "Video Editor & Colourist",
+    company: "Freelance",
   },
   {
     id: 2,
-    date: "2016 - 2018",
-    designation: "UX Designer",
-    company: "RGB Studio",
+    date: "2022 - 2023",
+    designation: "Video Editor",
+    company: "Ginger Camel",
   },
   {
     id: 3,
-    date: "2012 - 2016",
-    designation: "Web Designer",
-    company: "Innovations Park",
+    date: "2021 - 2022",
+    designation: "Junior Video Editor",
+    company: "Ultramarine Films",
   },
 ];
 const educationData = [
   {
     id: 1,
-    date: "2014 - 2016",
-    degree: "Master Degree",
-    institute: "Oxford Univercity",
+    date: "2015 - 2017",
+    degree: "Foundation Degree",
+    institute: "University of the West of England",
   },
   {
     id: 2,
-    date: "2010 - 2014",
-    degree: "Bachelor Degree",
-    institute: "Texas Univercity",
+    date: "2017 - 2020",
+    degree: "Bachelors Degree",
+    institute: "Falmouth University",
   },
   {
     id: 3,
-    date: "2008 - 2010",
-    degree: "Associate Degree",
-    institute: "Simone College",
+    date: "2020 - 2021",
+    degree: "Masters Degree",
+    institute: "University of Bristol",
   },
 ];
 

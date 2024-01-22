@@ -6,21 +6,15 @@ const Intro = () => {
         <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-        <h3 className="text-[22px] font-bold">Adriano Smith</h3>
-        <span>Web Developer</span>
+        <h3 className="text-[22px] font-bold">Alex Cooper</h3>
+        <span>Video Editor & Colourist</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Hi, my name is Alex Cooper, I'm a dedicated video editor and colourist on a mission to turn visions into cinematic reality. With a keen eye for detail and a passion for storytelling, I bring a unique blend of technical expertise and artistic flair to every project.
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+        For me, video editing is not just about assembling footage; it's about weaving a story that resonates. I thrive on the challenge of translating concepts into compelling visual narratives, ensuring each frame contributes to the overall cinematic experience.
         </p>
       </div>
       <div className="tokyo_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
@@ -31,19 +25,19 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Birthday:
                 </span>
-                <span>01.07.1990</span>
+                <span>15th July 1998</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Age:
                 </span>
-                <span>32</span>
+                <span>25</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Address:
                 </span>
-                <span>Ave 11, New York, USA</span>
+                <span>77 North Street, Bristol, UK</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -52,9 +46,9 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="mailto:tokyo@gmail.com"
+                    href="mailto:alexanderjohncooper23@hotmail.com"
                   >
-                    tokyo@gmail.com
+                    alexanderjohncooper23@hotmail.com
                   </a>
                 </span>
               </li>
@@ -67,7 +61,7 @@ const Intro = () => {
                     className="text-[#767676] transition-all duration-300 hover:text-black"
                     href="tel:+77 022 177 05 05"
                   >
-                    +77 022 177 05 05
+                    +44 7585 445056
                   </a>
                 </span>
               </li>
@@ -81,25 +75,25 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Nationality:
                 </span>
-                <span>USA</span>
+                <span>British</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Study:
                 </span>
-                <span>Univercity of Texas</span>
+                <span>Falmouth University</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Degree:
                 </span>
-                <span>Master</span>
+                <span>Masters</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Interest:
+                  Interests:
                 </span>
-                <span>Playing Football</span>
+                <span>Football, Tennis, Basketball, Film</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -112,7 +106,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="tokyo_tm_button" data-position="left">
-        <a href="assets/img/cv/1.jpg" download>
+        <a href="assets/img/cv/Alex_Cooper_CV.pdf" download>
           <span>Download CV</span>
         </a>
       </div>

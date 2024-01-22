@@ -1,6 +1,6 @@
 const programming = [
-  { id: 1, name: "WordPress", value: 95 },
-  { id: 2, name: "JavaScript", value: 80 },
+  { id: 1, name: "Adobe Premiere Pro", value: 95 },
+  { id: 2, name: "Davinci Resolve", value: 80 },
   { id: 3, name: "Angular", value: 90 },
 ];
 const language = [

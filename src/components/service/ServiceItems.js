@@ -4,63 +4,45 @@ import { useContext } from "react";
 const services = [
   {
     id: 1,
-    name: "Web Design",
+    name: "Video Production",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Tokyo, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Video production is a multifaceted process that involves planning, shooting, and editing to create visual content for various purposes. It encompasses a wide range of activities, from conceptualization and scripting to the final delivery of a polished video.",
+      "Video production begins with pre-production, where ideas are transformed into a concrete plan. This stage involves concept development, scriptwriting, storyboarding, and planning logistics such as locations, casting, and equipment.",
+      "Once the groundwork is laid, the production phase involves bringing the plan to life through the use of cameras, lighting, sound equipment, and other tools. This stage includes shooting interviews, capturing b-roll footage, and ensuring that the visuals align with the creative vision.",
     ],
     image: "assets/img/news/1.jpg",
   },
   {
     id: 2,
-    name: "Content Writing",
+    name: "Video Editing",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Tokyo, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Video editing is the creative and technical process of manipulating raw video footage to produce a polished and visually cohesive final product. This process involves various stages, from organizing and selecting clips to applying effects and fine-tuning audio.",
+      "Beginning with the importation of video clips into specialized editing software, the editor meticulously organizes the material into a logical sequence on a timeline. Cutting and trimming then ensue, refining the content by removing unnecessary elements and ensuring a smooth and engaging flow.",
+      "Video editing is an art form that combines technical proficiency with creative expression, resulting in a polished and compelling visual piece ready for sharing on various platforms.",
     ],
     image: "assets/img/news/2.jpg",
   },
   {
     id: 3,
-    name: "Brand Identity",
+    name: "Colour Grading",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Tokyo, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Colour grading is a crucial step in the video editing process that involves the adjustment and enhancement of the colour and tone of a video to achieve a desired visual style or mood.",
+      "The primary goals of colour grading include achieving visual consistency across different scenes, correcting any colour imbalances introduced during filming, and enhancing the overall aesthetic appeal of the video.",
+      "Colour grading often involves working with colour wheels, curves, and sliders to fine-tune the shadows, midtones, and highlights of the video. It allows for the isolation and adjustment of specific colours within the frame, enabling editors to emphasize certain elements or create visual focal points.",
     ],
     image: "assets/img/news/3.jpg",
   },
   {
     id: 4,
-    name: "Live Chat",
+    name: "Motion Graphics",
     text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Tokyo, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Motion Graphics involves the use of digital techniques to bring static graphics, text, and images to life through movement, transitions, and effects.",
+      "Here are key aspects and characteristics of motion graphics:",
+      "Animation: Motion graphics heavily rely on animation, where various visual elements move, rotate, scale, and transform over time. This can include 2D or 3D animation, giving depth and dimension to the visuals.",
+      "Graphic Design Elements: The foundation of motion graphics is built on graphic design principles. Elements such as typography, shapes, colors, and images are carefully crafted and arranged to convey a message or tell a story.",
+    "Transitions and Timing: Timing is crucial in motion graphics. Smooth transitions, well-timed movements, and synchronization with audio contribute to the overall effectiveness of the piece. The pacing and rhythm of the motion help guide the viewer's attention."
     ],
     image: "assets/img/news/4.jpg",
-  },
-  {
-    id: 5,
-    name: "After Effects",
-    text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Tokyo, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    ],
-    image: "assets/img/news/1.jpg",
-  },
-  {
-    id: 6,
-    name: "Mobile App",
-    text: [
-      "Tokyo is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Tokyo, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    ],
-    image: "assets/img/news/2.jpg",
   },
 ];
 const ServiceItems = () => {
