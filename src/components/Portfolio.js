@@ -148,7 +148,31 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-                            <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
+              <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Qatar Olympic Committee"
+                    data-category="Advert"
+                  >
+                    <a
+                      className="popup-vimeo"
+                      href="https://www.youtube.com/watch?v=sNbY1vas3HU"
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+                <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
@@ -182,6 +206,30 @@ const Portfolio = () => {
                     <a
                       className="popup-youtube"
                       href="https://www.youtube.com/watch?v=AOsRcSRl_Ic"
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/invest.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="College of the North Atlantic"
+                    data-category="Brand Film"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/watch?v=Z5F7NXgdDfI"
                     >
                       <img
                         className="opacity-0 min-w-full"
